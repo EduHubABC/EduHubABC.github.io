@@ -1,4 +1,4 @@
-* {
+1* {
 	background-color: rgb(238, 235, 231);
 }
 
@@ -9,7 +9,7 @@ body {
 
 #login {
 	position: absolute;
-	right: 0;
+	right: 1em;
 }
 
 img {
