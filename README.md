@@ -1,4 +1,4 @@
 # EduHub
-EduHub is a hub for free, open-source educational resources. 
+*Always Free. Always Open.*
 
-Always free. Always open.
+EduHub exists to provide free education on a wide range of topics to help enable the people of the world to empower themselves, empower each other, pursue truth, eliminate poverty, and protect the earth.
