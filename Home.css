@@ -2,6 +2,22 @@
 	background-color: rgb(238, 235, 231);
 }
 
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#login {
+	float: right;
+}
+
+img {
+	display: block;
+	margin: auto; 
+	align-content: center;
+	position: relative;
+}
+
 h1 {
 	font-family: Garamond;
 	font-size: 48px;
@@ -9,9 +25,8 @@ h1 {
 	text-align: center;
 }
 
-img {
-	display: block;
-	margin: auto;
+h3 {
+	
 }
 
 h4 {
@@ -25,26 +40,9 @@ h5 {
 	
 }
 
-nav > ul {
-	background-color: rgb(243, 201, 146);
-	text-align: center;
-	
-}
-
-nav > ul > li {
-	font-family: Georgia;
-	font-size: 16px;
-	color: rgb(205, 116, 50);
-	display: inline;
-	text-align: center;
-	margin-right: 30px;
-	margin-left: 30px;
-	background-color: rgb(243, 201, 146);
-}
-
 a:link {
 	text-decoration: none;
-	color: rgb(205, 116, 50); 
+	color: rgb(205, 116, 50);  
 	background-color: rgb(243, 201, 146);
 }
 
@@ -57,4 +55,61 @@ a:visited {
 p {
 	font-family: Garamond;
 	font-size: 18px;
+}
+
+
+ul {
+	background-color: rgb(243, 201, 146);
+	text-align: center;
+}
+
+li {
+    /*float: left;*/
+	font-family: Georgia;
+	font-size: 16px;
+	color: rgb(205, 116, 50);
+	display: inline;
+	text-align: center;
+	margin-right: 30px;
+	margin-left: 30px;
+	background-color: rgb(243, 201, 146);
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(238, 170, 87);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: rgba(243, 201, 146, .5)}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
