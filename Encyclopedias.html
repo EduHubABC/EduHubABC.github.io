@@ -3,49 +3,66 @@
   <head>
     <title>EduHub - Always Free. Always Open.</title>
 	<link href="Home.css" type="text/css" rel="stylesheet">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<meta name='apple-mobile-web-app-capable' content='yes'>
+	<meta name='mobile-web-app-capable' content='yes'>
   </head>
   <body>
-    <h1>EduHub</h1>
-	<div>
-<!-- This space is to insert a username/password box in the upper-right corner-->
+    <div id="login">
+	  <form action="login_page.php">
+	    Username: <br>
+		<input type ="text" name="username">
+		<br>
+		Password: <br>
+		<input type="text" name="password">
+		<br><br>
+		<input type="submit" value="Submit">
+	  </form>	
 	</div>
+	<h1>EduHub</h1>
 	<h4>Always free.  Always open.</h4>
 	<img src="Logo.png"/>
     <nav>
 	  <ul>
-	    <li><a href="Home.html">Home</a></li>
-	    <li class="dropdown">Courses</li>
-<!--    <div class="dropdown-content-courses">
-		    <a href="Mathematics.html">Mathematics</a>
-			<a href="PhysicalSciences.html">Physical Sciences</a>
-			<a href="LifeSciences.html">Life Sciences</a>
-			<a href="Language.html">Language</a>
-			<a href="Technology.html">Technology</a>
-			<a href="Engineering.html">Engineering</a>
-			<a href="Art.html">Art</a>
-			<a href="Philosophy.html">Philosophy</a>
-			<a href="Trades.html">Trades</a>
-			<a href="SpiritualityAndReligion.html">Spirituality/Religion</a>
-			<a href="Medicine.html">Medicine</a>
-			<a href="Trades.html">Trades</a>
-		  </div>
--->		<li class="dropdown">Literacy</li>
-<!--	  <div class="dropdown-content-literacy">
-		    <a href="LiteracyStatement.html">The Importance of Literacy</a>
-			<a href="LinguaFrancas.html">Lingua Francas</a>
-			<a href="LiteracySources.html">Literacy Resources</a>
-		  </div>
--->		<li class="dropdown">Suggested Resources</li>
-<!--	  <div class="dropdown-content-resources">
-		    <a href="FreeCourseware.html">Free Courseware</a>
-			<a href="PaidCourseware.html">Paid Courseware</a>
-			<a href="ProfessionalTraining.html">Professional Training</a>
-			<a href="Texts.html">Texts</a>
-			<a href="Libraries.html">Libraries</a>
-			<a href="Dictionaries.html">Dictionaries</a>
-			<a href="Encyclopedias.html">Encyclopedias</a>
-		  </div>
--->		<li><a href="MissionStatement.html">Mission Statement</a></li>
+	    <li><a href="index.html">Home</a></li>
+	    <li class="dropdown">
+             <a href="javascript:void(0)" class="dropbtn">Courses</a>
+             <div class="dropdown-content">
+               <a href="Mathematics.html">Mathematics</a>
+			   <a href="PhysicalSciences.html">Physical Sciences</a>
+			   <a href="LifeSciences.html">Life Sciences</a>
+			   <a href="Language.html">Language</a>
+			   <a href="Technology.html">Technology</a>
+			   <a href="Engineering.html">Engineering</a>
+			   <a href="Art.html">Art</a>
+			   <a href="Philosophy.html">Philosophy</a>
+			   <a href="Trades.html">Trades</a>
+			   <a href="SpiritualityAndReligion.html">Spirituality/Religion</a>
+			   <a href="Medicine.html">Medicine</a>
+			   <a href="Trades.html">Trades</a>
+             </div>
+           </li>
+		<li class="dropdown">
+             <a href="javascript:void(0)" class="dropbtn">Literacy</a>
+             <div class="dropdown-content">
+               <a href="LiteracyStatement.html">The Importance of Literacy</a>
+			   <a href="LinguaFrancas.html">Lingua Francas</a>
+			   <a href="LiteracySources.html">Literacy Resources</a>
+             </div>
+           </li>
+	<li class="dropdown">
+             <a href="javascript:void(0)" class="dropbtn">Suggested Resources</a>
+             <div class="dropdown-content">
+               <a href="FreeCourseware.html">Free Courseware</a>
+			   <a href="PaidCourseware.html">Paid Courseware</a>
+			   <a href="ProfessionalTraining.html">Professional Training</a>
+			   <a href="Texts.html">Texts</a>
+			   <a href="Libraries.html">Libraries</a>
+			   <a href="Dictionaries.html">Dictionaries</a>
+			   <a href="Encyclopedias.html">Encyclopedias</a>
+             </div>
+           </li>
+		<li><a href="MissionStatement.html">Mission Statement</a></li>
 		<li><a href="ContactUs.html">Contact Us</a></li>
 	  </ul>
 	</nav>
