@@ -42,13 +42,13 @@ h5 {
 	
 }
 
-a:link {
+nav a:link {
 	text-decoration: none;
 	color: rgb(205, 116, 50);  
 	background-color: rgb(243, 201, 146);
 }
 
-a:visited {
+nav a:visited {
 	text-decoration: none;
 	color: rgb(205, 116, 50);
 	background-color: rgb(243, 201, 146);
@@ -60,12 +60,12 @@ p {
 }
 
 
-ul {
+nav ul {
 	background-color: rgb(243, 201, 146);
 	text-align: center;
 }
 
-li {
+nav li {
     /*float: left;*/
 	font-family: Georgia;
 	font-size: 16px;
@@ -77,7 +77,7 @@ li {
 	background-color: rgb(243, 201, 146);
 }
 
-li a, .dropbtn {
+nav li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -85,11 +85,11 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+nav li a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(238, 170, 87);
 }
 
-li.dropdown {
+nav li.dropdown {
     display: inline-block;
 }
 
