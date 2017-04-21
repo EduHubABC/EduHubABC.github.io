@@ -39,7 +39,7 @@ h4 {
 }
 
 h5 {
-	
+	padding: 5em;
 }
 
 nav a:link {
@@ -57,6 +57,7 @@ nav a:visited {
 p {
 	font-family: Garamond;
 	font-size: 18px;
+	padding: 5em;
 }
 
 
