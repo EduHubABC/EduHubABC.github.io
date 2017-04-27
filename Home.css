@@ -38,7 +38,7 @@ h1 {
 h4 {
 	font-family: Garamond;
 	font-size: 24px;
-	padding: 1em;
+	padding: .5em;
 	color: rgb(0,0,0);
 	text-align: center;
 }
@@ -47,7 +47,7 @@ h5 {
 	font-family: Garamond;
 	font-size: 18px;
 	font-style: italic;
-	padding: 1em;
+	padding: .5em;
 }
 
 nav a:link {
