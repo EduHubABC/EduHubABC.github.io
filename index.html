@@ -8,12 +8,14 @@
 	<meta name='mobile-web-app-capable' content='yes'>
   </head>
   <body>
-    <div id="language">
-	<p>Choose your Language.</p>
-	    <button onclick="languageSelector()">Pick</button>
+    <div id="mailer">
+	    <button onclick="addEmails()">Login</button>
 	    <script>
-		    function languageSelector() {
-		    window.open("https://eduhubabc.github.io/ContactUs.html");
+		    function addEmails() {
+		    	var finalMessage = "";
+			var userEmail = prompt("Enter your E-mail address to be added to our updates mailing list!");
+			finalMessage = "You entered: " + userEmail;
+			alert(finalMessage);
 		    }
 	    </script>
     </div>
