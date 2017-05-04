@@ -15,7 +15,11 @@
 		    	var finalMessage = "";
 			var userEmail = prompt("Enter your E-mail address to be added to our updates mailing list!");
 			finalMessage = "You entered: " + userEmail;
-			alert(finalMessage);
+			if (confirm(finalMessage + ". Is that correct?") == true) {
+			}
+			else {
+			alert("Sorry about that.  Please try again.");
+			}
 		    }
 	    </script>
     </div>
